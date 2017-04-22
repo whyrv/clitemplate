@@ -1,0 +1,9 @@
+build:
+  main: ./cmd/clitemplate/main.go
+  goarch:
+    - amd64
+brew:
+  github:
+    owner: whyrv
+    name: homebrew-tap
+  folder: Formula
